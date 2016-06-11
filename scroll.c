@@ -141,6 +141,7 @@ int main(int argc, const char* argv[])
 		{
 			output_syn(ofd);
 			last_btn = mouse->btn;
+			dx = dy = 0;
 		}
 	}
 
